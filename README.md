@@ -69,14 +69,11 @@ BOOL APIENTRY DllMain(HMODULE hModule, DWORD  ul_reason_for_call, LPVOID lpReser
 }
 ```
 
-3. Place the Malicious DLL
- * Copy the custom wow64log.dll into C:\Windows\System32\.
-
-4. Run Helakuru Desktop
+3. Run Helakuru Desktop
  * Launch Helakuru Desktop again. The malicious wow64log.dll will now be loaded into the program, triggering the Calculator as a demonstration of successful DLL injection.
  ![Pasted image 20240925233737](https://github.com/user-attachments/assets/d01f179e-e09d-45e1-8b04-2922102f7b69)
 
-5. Verify DLL Load using ProcMon
+4. Verify DLL Load using ProcMon
  * Reopen ProcMon and observe that the wow64log.dll is successfully loaded this time, confirming that the custom DLL has been executed by the program.
    ![Pasted image 20240925232728](https://github.com/user-attachments/assets/985f373f-9e7a-4d4b-b3d3-0bed98710be4)
 
