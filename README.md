@@ -1,8 +1,9 @@
 **DLL Hijacking Vulnerability in Helakuru Desktop**
+---
 
 **Summary**
 
-The Helakuru Desktop version operates on both 64-bit and 32-bit architectures. During testing, it was identified that the program attempts to load wow64log.dll, which is missing from the application. This results in a "Name not found" error, exposing the program to a DLL Hijacking vulnerability. By crafting a malicious wow64log.dll, arbitrary code execution can be achieved (demonstrated by a simple calculator popup upon loading the DLL into the Helakuru Desktop program).
+The Helakuru Desktop version operates on both 64-bit and 32-bit architectures. During testing, it was identified that the program attempts to load wow64log.dll, which is missing from the application. This results in a "Name not found" error, exposing the program to a DLL Hijacking vulnerability. By crafting a malicious wow64log.dll, arbitrary code execution can be achieved.
 
 **Affected Version**
 
