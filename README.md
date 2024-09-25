@@ -1,4 +1,4 @@
-**DLL Hijacking Vulnerability in Helakuru Desktop**
+**DLL Hijacking Vulnerability in Helakuru**
 ---
 
 **Summary**
